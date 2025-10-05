@@ -1,4 +1,3 @@
-// Kiriutin
 #include <iostream>
 #include <map>
 #include <functional>
@@ -50,9 +49,6 @@ int main() {
 
     unsigned choice = 0;
 
-    cout << "=== ЛАБОРАТОРНАЯ РАБОТА 3-4: КЛАСС 'ПАЦИЕНТ' ===\n";
-    cout << "Выполнил: Kiriutin\n\n";
-
     while (true) {
         cout << "МЕНЮ:\n";
         
@@ -65,7 +61,6 @@ int main() {
         EnterNumber(choice, "Введите номер пункта: ");
 
         if (choice == 0) {
-            cout << "© 2025 Kiriutin\n";
             break;
         }
 
