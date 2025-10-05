@@ -3,6 +3,7 @@
 #include <map>
 #include <functional>
 #include "Kiriutin_LR3-4_Methods.h"
+#include <limits>
 
 using namespace std;
 
