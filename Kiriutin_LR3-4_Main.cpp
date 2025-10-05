@@ -2,8 +2,10 @@
 #include <iostream>
 #include <map>
 #include <functional>
-#include "Kiriutin_LR3-4_Methods.h"
 #include <limits>
+#include <vector>
+#include <algorithm>
+#include "Kiriutin_LR3-4_Methods.h"
 
 using namespace std;
 
@@ -23,6 +25,7 @@ void EnterNumber(unsigned& choice, const string& prompt) {
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "Ошибка! Введите число.\n";
         } else {
+            cin.ignore(); // Очищаем буфер после ввода числа
             break;
         }
     }

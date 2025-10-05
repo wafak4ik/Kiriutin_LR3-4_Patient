@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ build active file",
+            "command": "g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++11",
+                "Kiriutin_LR3-4_Main.cpp",
+                "Kiriutin_LR3-4_Patient.cpp",
+                "-o",
+                "${workspaceFolder}/patient_app"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Компиляция проекта Patient"
+        }
+    ]
+}
